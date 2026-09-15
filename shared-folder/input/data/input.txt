@@ -1,1 +1,5 @@
-# Create your own input dataset
+Cloud computing allows organizations to process large amounts of data using flexible computing resources. Cloud platforms make computing resources available when applications need additional capacity. Data engineers use cloud systems to store data process data and analyze data for useful business decisions.
+
+Hadoop provides distributed storage and distributed processing for large datasets. HDFS stores data across multiple DataNodes while Hadoop coordinates computing tasks across the cluster. When data enters HDFS the file is divided into blocks and those blocks are distributed across available DataNodes.
+
+MapReduce processes data through map shuffle and reduce phases. The mapper reads input records and produces intermediate key value pairs. The shuffle groups every value associated with the same key before the reducer starts. The reducer receives each grouped key calculates the total count and writes the final output to HDFS.
